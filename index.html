@@ -1,168 +1,123 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md Shamsudduha | Research Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
 
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f9fafb;
-  color: #222;
-  line-height: 1.7;
-}
+<body>
+  <!-- ===== TOP BAR ===== -->
+  <div class="topbar">
+    <div class="left-links">
+      <a href="mailto:shamsuddoha.bio@gmail.com">Email</a> |
+      <a href="https://linkedin.com/in/md-shamsudduha" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/DohaBD" target="_blank">GitHub</a> |
+      <a href="https://orcid.org/0009-0000-8604-0510" target="_blank">ORCID</a> |
+      <a href="https://www.researchgate.net/profile/Md-Shamsudduha" target="_blank">ResearchGate</a>
+    </div>
 
-/* ===== TOP BAR ===== */
-.topbar {
-  background: #023047;
-  color: #ffb703;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.6rem 1.5rem;
-  flex-wrap: wrap;
-}
+    <div class="right-actions">
+      <a href="cv.pdf" target="_blank" class="cv-button">Download CV</a>
+    </div>
+  </div>
 
-.topbar a {
-  color: #ffb703;
-  text-decoration: none;
-  font-weight: 500;
-}
+  <!-- ===== HERO SECTION ===== -->
+  <header class="hero">
+    <h1>Md Shamsudduha</h1>
+    <p class="subtitle">Genetics & Molecular Biology Researcher | University of Dhaka</p>
+  </header>
 
-.topbar a:hover {
-  color: #fb8500;
-  text-decoration: underline;
-}
+  <!-- ===== NAVIGATION ===== -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#skills">Skills</a>
+    <a href="#awards">Awards</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-.left-links {
-  font-size: 0.95rem;
-}
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a molecular biology and genetics researcher passionate about understanding gene regulation, neurogenetics,
+        and molecular responses to environmental stress. Currently, I serve as a Research Assistant at the University of Dhaka, 
+        focusing on <i>Drosophila</i> behavior, nanoparticle-mediated gene delivery, and molecular diagnostics.
+      </p>
+    </section>
 
-.right-actions {
-  display: flex;
-  align-items: center;
-}
+    <section id="research">
+      <h2>Research Experience</h2>
 
-.cv-button {
-  background: #ffb703;
-  color: #ffffff;
-  padding: 6px 16px;
-  border-radius: 22px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
-  font-size: 0.95rem;
-  border: none;
-}
+      <div class="card">
+        <h3>Research Assistant (2024–Present)</h3>
+        <p><b>Genetics & Molecular Biology Lab</b>, University of Dhaka</p>
+        <ul>
+          <li>Exploring effects of intermittent fasting on behavior and gene expression in <i>Drosophila</i>.</li>
+          <li>Developed nanoparticle-based DNA extraction and delivery systems.</li>
+          <li>Collaborated with interdisciplinary teams in Electrical Engineering and Botany.</li>
+        </ul>
+      </div>
 
-.cv-button:hover {
-  background: #fb8500;
-  color: #ffffff;
-}
+      <div class="card">
+        <h3>Research Student (2023–2024)</h3>
+        <p>Thesis: <i>"Effect of salt stress on Gad1 gene expression and memory formation in Drosophila melanogaster"</i></p>
+        <ul>
+          <li>Investigated behavioral and molecular effects of salt stress on memory formation.</li>
+          <li>Performed RNA extraction, cDNA synthesis, PCR, and gel electrophoresis.</li>
+        </ul>
+      </div>
+    </section>
 
-/* ===== HERO SECTION ===== */
-header.hero {
-  background: linear-gradient(135deg, #023047, #035b7e);
-  color: white;
-  text-align: center;
-  padding: 2.5rem 1rem;
-}
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul>
+        <li><b>Shamsudduha, M.</b> et al. (2025). <i>Morphological and molecular identification of the cat flea Ctenocephalides felis from Bangladesh.</i> <b>J. Adv. Vet. Anim. Res.</b></li>
+        <li>Barkat, A.I., Shamsudduha, M. et al. (Under Review). <i>Effect of antidepressant drug on glucose level and DILP gene expression in Drosophila melanogaster.</i> <b>BioMed Res. Int.</b></li>
+        <li>Esha, K.J., Roy, A., Shamsudduha, M. et al. (Under Review). <i>Magnetic nanoparticles for DNA binding and gene delivery.</i> <b>IEEE Trans. NanoBiosci.</b></li>
+      </ul>
+    </section>
 
-header h1 {
-  font-size: 2.4rem;
-  margin-bottom: 0.5rem;
-}
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <span>DNA/RNA Extraction</span>
+        <span>cDNA Synthesis</span>
+        <span>PCR / RT-PCR</span>
+        <span>Drosophila Culture</span>
+        <span>Bioinformatics (BLAST, MEGA, FinchTV)</span>
+        <span>Basic R Programming</span>
+        <span>Microscopy</span>
+        <span>Scientific Writing</span>
+      </div>
+    </section>
 
-.subtitle {
-  color: #dcecf1;
-  font-size: 1.1rem;
-}
+    <section id="awards">
+      <h2>Awards & Achievements</h2>
+      <ul>
+        <li>🏆 National Science and Technology Fellowship, 2023</li>
+        <li>🥇 Champion, National Zoology Olympiad, 2022</li>
+      </ul>
+    </section>
 
-/* ===== NAVIGATION ===== */
-nav {
-  display: flex;
-  justify-content: center;
-  background: #ffb703;
-  padding: 0.8rem;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you’d like to discuss research collaboration or PhD opportunities, feel free to reach out.</p>
+      <p><b>Email:</b> <a href="mailto:shamsuddoha.bio@gmail.com">shamsuddoha.bio@gmail.com</a></p>
+      <p><b>Location:</b> Dhaka, Bangladesh</p>
+    </section>
+  </main>
 
-nav a {
-  color: #023047;
-  text-decoration: none;
-  margin: 0 12px;
-  font-weight: 600;
-  transition: 0.2s;
-}
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2025 Md Shamsudduha — Built with 💻, ☕, and a passion for science.</p>
+  </footer>
+</body>
+</html>
 
-nav a:hover {
-  text-decoration: underline;
-  color: #001d3d;
-}
-
-/* ===== MAIN CONTENT ===== */
-main {
-  max-width: 950px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-
-section {
-  margin-bottom: 3rem;
-  scroll-margin-top: 90px; /* ensures correct scroll alignment */
-}
-
-h2 {
-  color: #023047;
-  border-bottom: 3px solid #ffb703;
-  padding-bottom: 0.4rem;
-  margin-bottom: 1rem;
-}
-
-.card {
-  background: white;
-  padding: 1rem;
-  margin-bottom: 1.2rem;
-  border-radius: 10px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* ===== SKILLS GRID ===== */
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 10px;
-  margin-top: 1rem;
-}
-
-.skills-grid span {
-  background: #e0f2f1;
-  border-radius: 8px;
-  padding: 8px;
-  text-align: center;
-  font-weight: 500;
-}
-
-/* ===== FOOTER ===== */
-footer {
-  background: #023047;
-  color: white;
-  text-align: center;
-  padding: 1.2rem;
-  margin-top: 3rem;
-  font-size: 0.9rem;
-}
-
-/* ===== RESPONSIVE ===== */
-@media (max-width: 600px) {
-  .topbar {
-    flex-direction: column;
-    gap: 0.6rem;
-    text-align: center;
-  }
-
-  header h1 { font-size: 1.8rem; }
-  .skills-grid { grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); }
-}
