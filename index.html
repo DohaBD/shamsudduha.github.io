@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Md Shamsudduha | Research Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
   <script src="script.js" defer></script>
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <header>
+  <header class="hero">
     <img src="profile.jpg" alt="Md Shamsudduha" class="profile-pic">
     <h1>Md Shamsudduha</h1>
-    <p>Genetics & Molecular Biology Researcher | University of Dhaka</p>
-    <div class="social-links">
+    <p class="subtitle">Molecular Biology & Genetics Researcher | University of Dhaka</p>
+
+    <div class="social-icons">
       <a href="mailto:shamsuddoha.bio@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
       <a href="https://linkedin.com/in/md-shamsudduha" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
       <a href="https://github.com/DohaBD" title="GitHub"><i class="fab fa-github"></i></a>
@@ -24,80 +25,89 @@
     </div>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am a molecular biology and genetics researcher focused on understanding gene regulation, neurogenetics, 
-      and molecular responses to environmental stress. Currently, I serve as a Research Assistant at the University of Dhaka, 
-      working on projects involving <i>Drosophila</i> behavior, nanoparticle-mediated gene delivery, and pathogen detection.
-    </p>
-  </section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#skills">Skills</a>
+    <a href="#awards">Awards</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <section id="education">
-    <h2>Education</h2>
-    <div class="card">
-      <b>MS in Genetics and Molecular Biology</b> — University of Dhaka (2024) <br> CGPA: 3.75/4.00
-    </div>
-    <div class="card">
-      <b>BS in Zoology</b> — University of Dhaka (2023) <br> CGPA: 3.61/4.00
-    </div>
-  </section>
-
-  <section id="research">
-    <h2>Research Experience</h2>
-    <div class="card">
-      <h3>Research Assistant (2024–Present)</h3>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
       <p>
-        <b>Genetics & Molecular Biology Lab</b>, University of Dhaka<br>
-        • Investigating gene expression and behavior in <i>Drosophila</i> under fasting and stress conditions.<br>
-        • Developed nanoparticle-based DNA extraction and delivery systems.<br>
-        • Collaborated with Electrical Engineering and Botany departments for gene delivery research.
+        I am a molecular biology and genetics researcher passionate about understanding gene regulation, neurogenetics,
+        and molecular responses to environmental stress. Currently, I serve as a Research Assistant at the University of Dhaka, 
+        focusing on <i>Drosophila</i> behavior, nanoparticle-mediated gene delivery, and molecular diagnostics.
       </p>
-    </div>
+    </section>
 
-    <div class="card">
-      <h3>Research Student (2023–2024)</h3>
-      <p>
-        Thesis: <i>"Effect of salt stress on Gad1 gene expression and memory formation in Drosophila melanogaster"</i> — 
-        examined gene-environment interactions using molecular and behavioral assays.
-      </p>
-    </div>
-  </section>
+    <section id="research">
+      <h2>Research Experience</h2>
 
-  <section id="publications">
-    <h2>Publications</h2>
-    <ul>
-      <li><b>Shamsudduha, M.</b> et al. (2025). <i>Morphological and molecular identification of the cat flea Ctenocephalides felis from Bangladesh.</i> J. Adv. Vet. Anim. Res.</li>
-      <li>Barkat, A.I., Shamsudduha, M. et al. (Under Review). <i>Antidepressant effects on Drosophila glucose regulation and DILP gene expression.</i> BioMed Res. Int.</li>
-      <li>Esha, K.J., Roy, A., Shamsudduha, M. et al. (Under Review). <i>Magnetic nanoparticles for DNA binding and gene delivery.</i> IEEE Trans. NanoBiosci.</li>
-    </ul>
-  </section>
+      <div class="card">
+        <h3>Research Assistant (2024–Present)</h3>
+        <p><b>Genetics & Molecular Biology Lab</b>, University of Dhaka</p>
+        <ul>
+          <li>Exploring effects of intermittent fasting on behavior and gene expression in <i>Drosophila</i>.</li>
+          <li>Developed nanoparticle-based DNA extraction and delivery systems.</li>
+          <li>Collaborated with interdisciplinary teams in Electrical Engineering and Botany.</li>
+        </ul>
+      </div>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <span>DNA/RNA Extraction</span>
-      <span>cDNA Synthesis</span>
-      <span>PCR / RT-PCR</span>
-      <span>Drosophila Culture</span>
-      <span>Bioinformatics (BLAST, MEGA, FinchTV)</span>
-      <span>Basic R Programming</span>
-      <span>Microscopy</span>
-      <span>Scientific Writing</span>
-    </div>
-  </section>
+      <div class="card">
+        <h3>Research Student (2023–2024)</h3>
+        <p>Thesis: <i>"Effect of salt stress on Gad1 gene expression and memory formation in Drosophila melanogaster"</i></p>
+        <ul>
+          <li>Investigated behavioral and molecular effects of salt stress on memory formation.</li>
+          <li>Performed RNA extraction, cDNA synthesis, PCR, and gel electrophoresis.</li>
+        </ul>
+      </div>
+    </section>
 
-  <section id="awards">
-    <h2>Awards & Achievements</h2>
-    <ul>
-      <li>🏆 National Science and Technology Fellowship, 2023</li>
-      <li>🥇 Champion, National Zoology Olympiad, 2022</li>
-    </ul>
-  </section>
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul>
+        <li><b>Shamsudduha, M.</b> et al. (2025). <i>Morphological and molecular identification of the cat flea Ctenocephalides felis from Bangladesh.</i> <b>J. Adv. Vet. Anim. Res.</b></li>
+        <li>Barkat, A.I., Shamsudduha, M. et al. (Under Review). <i>Effect of antidepressant drug on glucose level and DILP gene expression in Drosophila melanogaster.</i> <b>BioMed Res. Int.</b></li>
+        <li>Esha, K.J., Roy, A., Shamsudduha, M. et al. (Under Review). <i>Magnetic nanoparticles for DNA binding and gene delivery.</i> <b>IEEE Trans. NanoBiosci.</b></li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <span>DNA/RNA Extraction</span>
+        <span>cDNA Synthesis</span>
+        <span>PCR / RT-PCR</span>
+        <span>Drosophila Culture</span>
+        <span>Bioinformatics (BLAST, MEGA, FinchTV)</span>
+        <span>Basic R Programming</span>
+        <span>Microscopy</span>
+        <span>Scientific Writing</span>
+      </div>
+    </section>
+
+    <section id="awards">
+      <h2>Awards & Achievements</h2>
+      <ul>
+        <li>🏆 National Science and Technology Fellowship, 2023</li>
+        <li>🥇 Champion, National Zoology Olympiad, 2022</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you’d like to discuss research collaboration or PhD opportunities, feel free to reach out.</p>
+      <p><b>Email:</b> <a href="mailto:shamsuddoha.bio@gmail.com">shamsuddoha.bio@gmail.com</a></p>
+      <p><b>Location:</b> Dhaka, Bangladesh</p>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2025 Md Shamsudduha — Built with 💻 & passion for science.</p>
+    <p>© 2025 Md Shamsudduha — Built with 💻, ☕, and a passion for science.</p>
   </footer>
 </body>
 </html>
-
