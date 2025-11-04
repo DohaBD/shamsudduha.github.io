@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 1.5rem;
+  padding: 0.6rem 1.5rem;
   flex-wrap: wrap;
 }
 
@@ -40,33 +40,23 @@ body {
 .right-actions {
   display: flex;
   align-items: center;
-  gap: 12px;
-}
-
-.mini-profile {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  border: 2px solid #ffb703;
-  object-fit: cover;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
 .cv-button {
   background: #ffb703;
-  color: #023047;
-  padding: 6px 14px;
+  color: #ffffff;
+  padding: 6px 16px;
   border-radius: 22px;
   text-decoration: none;
   font-weight: bold;
   transition: 0.3s;
-  border: none;
   font-size: 0.95rem;
+  border: none;
 }
 
 .cv-button:hover {
   background: #fb8500;
-  color: white;
+  color: #ffffff;
 }
 
 /* ===== HERO SECTION ===== */
@@ -121,7 +111,7 @@ main {
 
 section {
   margin-bottom: 3rem;
-  scroll-margin-top: 80px; /* ensures sections align correctly when scrolling */
+  scroll-margin-top: 90px; /* ensures correct scroll alignment */
 }
 
 h2 {
@@ -176,5 +166,6 @@ footer {
   header h1 { font-size: 1.8rem; }
   .skills-grid { grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); }
 }
+
 
 
