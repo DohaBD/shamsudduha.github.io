@@ -4,9 +4,13 @@ document.querySelectorAll('nav a').forEach(link => {
     e.preventDefault();
     const target = document.querySelector(link.getAttribute('href'));
     if (target) {
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      window.scrollTo({
+        top: target.offsetTop - 70, // offset for sticky navbar
+        behavior: 'smooth'
+      });
     }
   });
 });
+
 
 
